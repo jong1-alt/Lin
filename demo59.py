@@ -1,8 +1,10 @@
 def something():
     """
     Demo function for help purpose
-    :return:
+    :return:SS
     """
     return 'awesome'
+
 print(something())
+# help(something)
 print(help(something))

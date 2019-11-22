@@ -1,4 +1,4 @@
-l1 =['apple','babama','orage','citron', 'grava']
+l1 =['apple','banana','orange','citron', 'grava']
 l2 = l1
 l3 = l1[:]
 l4 = list(l1)

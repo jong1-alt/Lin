@@ -12,12 +12,13 @@ a5 = Decimal(2968) * Decimal(0.001) - Decimal(2.968)
 print(a5)
 a6 = Decimal(2968) * Decimal('0.001') - Decimal('2.968')
 print(a6)
-from decimal import ROUND_HALF_UP, ROUND_HALF_DOWN, ROUND_HALF_EVEN
+from decimal import ROUND_HALF_UP
+a7 = Decimal(2.5)
+result7 = Decimal(a7.quantize(Decimal(1),
+                              rounding=ROUND_HALF_UP))
+print(a7, result7)
 
-digits = [1.5, 2.5, 3.5, 4.5]
-rounds = [ROUND_HALF_DOWN, ROUND_HALF_EVEN, ROUND_HALF_UP]
-for d in digits:
-    for r in rounds:
-        result = Decimal(Decimal(d).quantize(Decimal(1),
-                                             rounding=r))
-        print(f"{d} using {r} ==> {result}")
+a8 = Decimal(3.5)
+result8 = Decimal(a8.quantize(Decimal(1),
+                              rounding=ROUND_HALF_UP))
+print(a8, result8)

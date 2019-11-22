@@ -1,6 +1,6 @@
 def factorial(number):
     if not isinstance(number, int):
-        raise TypeError("Sorry, number should be int")
+        raise TypeError("Sorry, number should be integer")
     if not number >= 0:
         raise ValueError("sorry, number should positive")
 

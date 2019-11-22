@@ -13,5 +13,5 @@ for r in allItems:
     content = r.find_elements_by_tag_name("a")
     print(content[0].text)
 
-#time.sleep(10)
+time.sleep(10)
 browser.close()

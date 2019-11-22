@@ -7,9 +7,9 @@ for r in data1:
     for c in r:
         if c < 0:
             print('got an outlier:%d' % c)
-            continue
-            #break
-        #else:
+            # continue
+            break
+        # else:
         sum += c
     else:
         print('summation=%d' % sum)

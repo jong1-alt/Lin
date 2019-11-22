@@ -7,7 +7,8 @@ print(2**3, 3**2)
 print(2**512)
 v4 = 37
 print(f"v4 = {v4}, as binary:{v4:b}")
-print(f"v4 as Oct = {v4:0}, as hex={v4:x}")
+print(f"v4 as Oct = {v4:o}, as hex={v4:x}")
+print(f"v4        = {v4:0}")
 b5 = 0b100
 b6 = 0o100
 b7 = 0x100

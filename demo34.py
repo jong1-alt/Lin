@@ -6,5 +6,5 @@ for a, b in zip(str1, list1):
 print(len(str1), len(list1))
 list1[1]='B'
 print(list1)
-str1[1]='B'
+# str1[1]='B'
 

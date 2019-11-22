@@ -3,7 +3,7 @@ def fib(n):
     while a < n:
         print(a, end=' ')
         a, b = b, a + b
-    print()
+    print('')
 
 if __name__ == '__main__':
     fib(1000)
